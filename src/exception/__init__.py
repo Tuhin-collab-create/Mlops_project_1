@@ -26,6 +26,6 @@ class MyException(Exception):
         self.errormessage = error_message_details(errormessage, errordetails)
 
     def __str__(self):
-        return self.error_message
+        return self.errormessage
         
  
