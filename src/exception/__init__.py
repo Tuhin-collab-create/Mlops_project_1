@@ -1,7 +1,6 @@
 import sys
 import logging
 
-
 def error_message_details(error: Exception, error_details: sys):
     """
     Extract the error line number and file details.
